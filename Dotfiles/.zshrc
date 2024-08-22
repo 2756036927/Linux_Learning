@@ -123,3 +123,4 @@ export PATH="/usr/bin/flutter/bin:$PATH"
 #添加快捷键
 alias dc=cd
 alias ll="ls -lah"
+alias git-log="git log --all --abbrev-commit --graph --decorate"
