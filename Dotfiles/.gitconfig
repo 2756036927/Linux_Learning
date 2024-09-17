@@ -1,0 +1,11 @@
+[user]
+	name = 202201201007-Zhixi He
+	email = h2756036927@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+
+[alias]
+	git-log = git log --all --abbrev-commit --graph --decorate
+	

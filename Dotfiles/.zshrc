@@ -10,7 +10,8 @@ fi
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
+#启用nvim
+export PATH="$PATH:/home/hzx/APPLICATIONS/neovim/nvim-linux64/bin"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -123,4 +124,3 @@ export PATH="/usr/bin/flutter/bin:$PATH"
 #添加快捷键
 alias dc=cd
 alias ll="ls -lah"
-alias git-log="git log --all --abbrev-commit --graph --decorate"
